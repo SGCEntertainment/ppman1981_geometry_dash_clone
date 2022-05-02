@@ -3,10 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | ppman1981_geometry_dash_clone</title>
+    <title>ppman1981_geometry_dash_clone</title>
+	<link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body style="text-align: center">
-    <canvas id="unity-canvas" width=854 height=480 style="width: 854px; height: 480px; background: #000000"></canvas>
+    <canvas id="unity-canvas"></canvas>
     <script src="Build/ppman1981_geometry_dash_clone.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
@@ -17,8 +18,6 @@
         companyName: "DefaultCompany",
         productName: "ppman1981_geometry_dash_clone",
         productVersion: "1.0",
-        // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
-        // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
       });
     </script>
   </body>
